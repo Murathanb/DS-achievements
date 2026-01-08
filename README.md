@@ -15,8 +15,8 @@ This repository highlights my hands-on Flutter work, focusing on production-read
 ## 🎬 Demo
 
 <p align="center">
-  <img src="assets/readme/dil..gif" width="360" />
-    <img src="assets/readme/dark.mode.gif" width="360" />
+  <img src="assets/readme/dil.gif" width="300" />
+    <img src="assets/readme/dark.mode.gif" width="300" />
 
 </p>
 
@@ -25,8 +25,8 @@ This repository highlights my hands-on Flutter work, focusing on production-read
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="assets/readme/main.screen.png" width="360" />
-  <img src="assets/readme/google.login.png" width="360" />
+  <img src="assets/readme/main.screen.png.png" width="360" />
+  <img src="assets/readme/google.login.png.png" width="360" />
 </p>
 
 ---
