@@ -1,0 +1,54 @@
+name: flutter_full_learn
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  audioplayers: ^5.2.0   # ✔ Ses paketi
+  flutter_localizations:
+    sdk: flutter
+  intl: 0.20.2
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^5.4.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
+  fluttertoast: ^8.2.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/png/
+    - assets/achievements/
+    - assets/sounds/check.mp3
+    - assets/sounds/nav.mp3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: "assets/icon/splash3.png"
+  android: true
+  ios: true
+  fullscreen: true
+  android_gravity: center
+  ios_content_mode: scaleAspectFill
