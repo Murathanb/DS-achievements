@@ -1,16 +1,90 @@
-# flutter_full_learn
+# Flutter Portfolio
 
-A new Flutter project.
+A curated collection of Flutter projects showcasing clean architecture, responsive UI, and real-world integrations.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Overview
 
-A few resources to get you started if this is your first Flutter project:
+This repository highlights my hands-on Flutter work, focusing on production-ready patterns and maintainable code. It includes UI experiments, feature-driven modules, and integrations commonly used in modern mobile apps.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Tech Stack:** Flutter • Dart • Firebase • REST APIs
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="assets/readme/dil..gif" width="360" />
+    <img src="assets/readme/dark.mode.gif" width="360" />
+
+</p>
+
+---
+
+## 📱 Screenshots
+
+<p align="center">
+  <img src="assets/readme/main.screen.png.png" width="360" />
+  <img src="assets/readme/google.login.png.png" width="360" />
+</p>
+
+---
+
+## 🧩 Key Features
+
+* Clean, feature-first architecture
+* Reusable and composable widgets
+* Firebase Authentication
+* Localization (i18n)
+* Responsive layouts (mobile-first)
+
+---
+
+## 🛠️ Getting Started
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+lib/
+ ├── core/          # shared utilities, theme, routing
+ ├── features/      # feature-based modules
+ ├── models/        # data models
+ ├── services/      # API & Firebase services
+ └── main.dart
+```
+
+---
+
+## 🔒 Security & Configuration
+
+Sensitive files are excluded from version control via `.gitignore`:
+
+* `google-services.json`
+* `GoogleService-Info.plist`
+* `.env`
+
+Environment-specific values should be provided locally.
+
+---
+
+## 👤 Author
+
+**Murathan Bayar**
+Flutter Developer
+
+* GitHub: [https://github.com/murathanb](https://github.com/murathanb)
+* LinkedIn: [https://linkedin.com/in/Murathanb](https://linkedin.com/in/Murathanb)
+
+---
+
+## ⭐ Notes
+
+This repository is actively maintained and updated as I continue building with Flutter.
